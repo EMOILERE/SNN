@@ -65,12 +65,6 @@ pip install spikingjelly==0.0.0.0.14 numpy scipy pandas scikit-learn \
     matplotlib tqdm einops h5py librosa soundfile pyyaml tensorboard timm gdown
 ```
 
-
-```
-
----
-
-
 ## 3. 三种神经元的接口
 
 四种神经元（含基线 LIF）都按照 SpikingJelly 多步 LIF 的接口设计，可直接互换：
