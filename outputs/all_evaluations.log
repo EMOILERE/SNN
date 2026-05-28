@@ -1,0 +1,436 @@
+loading outputs/cifar10_lif/best.pt
+Files already downloaded and verified
+Files already downloaded and verified
+
+== Evaluation: task=cifar10, neuron=lif ==
+  overall test_loss = 0.7983
+  overall test_acc  = 0.7167   (71.67%)
+  trainable params  = 235,178
+
+== Per-class accuracy ==
+  class  0: 0.7240
+  class  1: 0.8220
+  class  2: 0.6100
+  class  3: 0.4660
+  class  4: 0.6560
+  class  5: 0.6610
+  class  6: 0.8020
+  class  7: 0.7660
+  class  8: 0.8240
+  class  9: 0.8360
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0632
+  lif2                          : 0.0531
+  lif3                          : 0.1403
+  lif4                          : 0.2268
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.1208
+  per-inference energy    = 102.314 nJ
+loading outputs/cifar10_dlif/best.pt
+Files already downloaded and verified
+Files already downloaded and verified
+
+== Evaluation: task=cifar10, neuron=dlif ==
+  overall test_loss = 0.8038
+  overall test_acc  = 0.7235   (72.35%)
+  trainable params  = 18,192,042
+
+== Per-class accuracy ==
+  class  0: 0.7360
+  class  1: 0.8520
+  class  2: 0.6690
+  class  3: 0.4650
+  class  4: 0.6970
+  class  5: 0.6360
+  class  6: 0.7930
+  class  7: 0.7700
+  class  8: 0.8410
+  class  9: 0.7760
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0597
+  lif2                          : 0.0510
+  lif3                          : 0.3007
+  lif4                          : 0.3911
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.2006
+  per-inference energy    = 13.139 uJ
+loading outputs/cifar10_polara/best.pt
+Files already downloaded and verified
+Files already downloaded and verified
+
+== Evaluation: task=cifar10, neuron=polara ==
+  overall test_loss = 0.7942
+  overall test_acc  = 0.7222   (72.22%)
+  trainable params  = 235,262
+
+== Per-class accuracy ==
+  class  0: 0.7910
+  class  1: 0.8660
+  class  2: 0.6020
+  class  3: 0.4970
+  class  4: 0.6570
+  class  5: 0.6330
+  class  6: 0.7770
+  class  7: 0.7480
+  class  8: 0.8510
+  class  9: 0.8000
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0534
+  lif2                          : 0.0189
+  lif3                          : 0.1483
+  lif4                          : 0.2306
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.1128
+  per-inference energy    = 95.547 nJ
+loading outputs/cifar10_dgn/best.pt
+Files already downloaded and verified
+Files already downloaded and verified
+
+== Evaluation: task=cifar10, neuron=dgn ==
+  overall test_loss = 0.7979
+  overall test_acc  = 0.7231   (72.31%)
+  trainable params  = 235,630
+
+== Per-class accuracy ==
+  class  0: 0.7790
+  class  1: 0.7920
+  class  2: 0.5990
+  class  3: 0.4480
+  class  4: 0.6960
+  class  5: 0.6950
+  class  6: 0.7950
+  class  7: 0.7400
+  class  8: 0.8450
+  class  9: 0.8420
+
+== Spike firing rates per layer ==
+  lif1                          : 0.1951
+  lif2                          : 0.1870
+  lif3                          : 0.2898
+  lif4                          : 0.3392
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.2528
+  per-inference energy    = 214.411 nJ
+loading outputs/gsc_lif/best.pt
+
+== Evaluation: task=gsc, neuron=lif ==
+  overall test_loss = 0.2581
+  overall test_acc  = 0.9162   (91.62%)
+  trainable params  = 497,484
+
+== Per-class accuracy ==
+  class  0: 1.0000
+  class  1: 0.8305
+  class  2: 0.9594
+  class  3: 0.9037
+  class  4: 0.9176
+  class  5: 0.8818
+  class  6: 0.9345
+  class  7: 0.9545
+  class  8: 0.9167
+  class  9: 0.8806
+  class 10: 0.9611
+  class 11: 0.8433
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0805
+  lif2                          : 0.0419
+  lif3                          : 0.0740
+  lif4                          : 0.3017
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.1245
+  per-inference energy    = 223.006 nJ
+loading outputs/gsc_dlif/best.pt
+
+== Evaluation: task=gsc, neuron=dlif ==
+  overall test_loss = 0.2618
+  overall test_acc  = 0.9213   (92.13%)
+  trainable params  = 18,454,348
+
+== Per-class accuracy ==
+  class  0: 1.0000
+  class  1: 0.8501
+  class  2: 0.9690
+  class  3: 0.9136
+  class  4: 0.9082
+  class  5: 0.8842
+  class  6: 0.9466
+  class  7: 0.9470
+  class  8: 0.9167
+  class  9: 0.9104
+  class 10: 0.9489
+  class 11: 0.8507
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0809
+  lif2                          : 0.0475
+  lif3                          : 0.1220
+  lif4                          : 0.4010
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.1629
+  per-inference energy    = 10.820 uJ
+loading outputs/gsc_polara/best.pt
+
+== Evaluation: task=gsc, neuron=polara ==
+  overall test_loss = 0.3087
+  overall test_acc  = 0.9053   (90.53%)
+  trainable params  = 497,568
+
+== Per-class accuracy ==
+  class  0: 1.0000
+  class  1: 0.7912
+  class  2: 0.9547
+  class  3: 0.9136
+  class  4: 0.9012
+  class  5: 0.8522
+  class  6: 0.9320
+  class  7: 0.9242
+  class  8: 0.8788
+  class  9: 0.8831
+  class 10: 0.9465
+  class 11: 0.8731
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0217
+  lif2                          : 0.0065
+  lif3                          : 0.0855
+  lif4                          : 0.1369
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.0626
+  per-inference energy    = 112.188 nJ
+loading outputs/gsc_dgn/best.pt
+
+== Evaluation: task=gsc, neuron=dgn ==
+  overall test_loss = 0.2730
+  overall test_acc  = 0.9091   (90.91%)
+  trainable params  = 497,936
+
+== Per-class accuracy ==
+  class  0: 1.0000
+  class  1: 0.7494
+  class  2: 0.9403
+  class  3: 0.8938
+  class  4: 0.9106
+  class  5: 0.9015
+  class  6: 0.9248
+  class  7: 0.9369
+  class  8: 0.9091
+  class  9: 0.9055
+  class 10: 0.9586
+  class 11: 0.8682
+
+== Spike firing rates per layer ==
+  lif1                          : 0.2215
+  lif2                          : 0.1871
+  lif3                          : 0.1781
+  lif4                          : 0.4166
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.2508
+  per-inference energy    = 449.616 nJ
+loading outputs/ucihar_lif/best.pt
+
+== Evaluation: task=ucihar, neuron=lif ==
+  overall test_loss = 0.5848
+  overall test_acc  = 0.8215   (82.15%)
+  trainable params  = 351,078
+
+== Per-class accuracy ==
+  class  0: 0.9839
+  class  1: 0.9469
+  class  2: 1.0000
+  class  3: 0.0000
+  class  4: 0.9981
+  class  5: 0.9981
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0627
+  lif2                          : 0.0420
+  lif3                          : 0.0704
+  lif4                          : 0.2276
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.1007
+  per-inference energy    = 127.221 nJ
+loading outputs/ucihar_dlif/best.pt
+
+== Evaluation: task=ucihar, neuron=dlif ==
+  overall test_loss = 0.6161
+  overall test_acc  = 0.8202   (82.02%)
+  trainable params  = 3,627,878
+
+== Per-class accuracy ==
+  class  0: 0.9879
+  class  1: 0.9469
+  class  2: 0.9857
+  class  3: 0.0000
+  class  4: 0.9962
+  class  5: 1.0000
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0569
+  lif2                          : 0.0520
+  lif3                          : 0.0541
+  lif4                          : 0.2482
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.1028
+  per-inference energy    = 1.343 uJ
+loading outputs/ucihar_polara/best.pt
+
+== Evaluation: task=ucihar, neuron=polara ==
+  overall test_loss = 0.9055
+  overall test_acc  = 0.6342   (63.42%)
+  trainable params  = 351,162
+
+== Per-class accuracy ==
+  class  0: 0.9516
+  class  1: 0.9363
+  class  2: 0.9976
+  class  3: 0.0000
+  class  4: 0.0019
+  class  5: 0.9981
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0746
+  lif2                          : 0.0589
+  lif3                          : 0.1206
+  lif4                          : 0.1041
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.0895
+  per-inference energy    = 113.178 nJ
+loading outputs/ucihar_dgn/best.pt
+
+== Evaluation: task=ucihar, neuron=dgn ==
+  overall test_loss = 0.2392
+  overall test_acc  = 0.9291   (92.91%)
+  trainable params  = 351,402
+
+== Per-class accuracy ==
+  class  0: 0.9637
+  class  1: 0.9427
+  class  2: 0.9833
+  class  3: 0.8147
+  class  4: 0.8759
+  class  5: 1.0000
+
+== Spike firing rates per layer ==
+  lif1                          : 0.2088
+  lif2                          : 0.2430
+  lif3                          : 0.2853
+  lif4                          : 0.4846
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.3054
+  per-inference energy    = 386.349 nJ
+loading outputs/uthar_lif/best.pt
+
+== Evaluation: task=uthar, neuron=lif ==
+  overall test_loss = 0.0778
+  overall test_acc  = 0.9800   (98.00%)
+  trainable params  = 732,807
+
+== Per-class accuracy ==
+  class  0: 0.9545
+  class  1: 1.0000
+  class  2: 0.9932
+  class  3: 1.0000
+  class  4: 1.0000
+  class  5: 0.9250
+  class  6: 0.9032
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0747
+  lif2                          : 0.0391
+  lif3                          : 0.0453
+  lif4                          : 0.3491
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.1270
+  per-inference energy    = 335.137 nJ
+loading outputs/uthar_dlif/best.pt
+
+== Evaluation: task=uthar, neuron=dlif ==
+  overall test_loss = 0.1255
+  overall test_acc  = 0.9720   (97.20%)
+  trainable params  = 4,009,607
+
+== Per-class accuracy ==
+  class  0: 0.9545
+  class  1: 0.9778
+  class  2: 1.0000
+  class  3: 1.0000
+  class  4: 1.0000
+  class  5: 0.8750
+  class  6: 0.8387
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0693
+  lif2                          : 0.0360
+  lif3                          : 0.0632
+  lif4                          : 0.3581
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.1316
+  per-inference energy    = 1.900 uJ
+loading outputs/uthar_polara/best.pt
+
+== Evaluation: task=uthar, neuron=polara ==
+  overall test_loss = 0.1807
+  overall test_acc  = 0.9660   (96.60%)
+  trainable params  = 732,891
+
+== Per-class accuracy ==
+  class  0: 0.9697
+  class  1: 1.0000
+  class  2: 1.0000
+  class  3: 0.9800
+  class  4: 1.0000
+  class  5: 0.7750
+  class  6: 0.8387
+
+== Spike firing rates per layer ==
+  lif1                          : 0.0609
+  lif2                          : 0.0616
+  lif3                          : 0.0744
+  lif4                          : 0.1208
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.0794
+  per-inference energy    = 209.546 nJ
+loading outputs/uthar_dgn/best.pt
+
+== Evaluation: task=uthar, neuron=dgn ==
+  overall test_loss = 0.0765
+  overall test_acc  = 0.9840   (98.40%)
+  trainable params  = 733,131
+
+== Per-class accuracy ==
+  class  0: 0.9545
+  class  1: 1.0000
+  class  2: 0.9932
+  class  3: 1.0000
+  class  4: 1.0000
+  class  5: 0.9750
+  class  6: 0.9032
+
+== Spike firing rates per layer ==
+  lif1                          : 0.2466
+  lif2                          : 0.2294
+  lif3                          : 0.2104
+  lif4                          : 0.4688
+
+== Energy (rough estimate, 45 nm CMOS) ==
+  mean firing rate        = 0.2888
+  per-inference energy    = 762.120 nJ
